@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html {
+    color: #E8E8F0;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+}
+
+img {
+    width: 37px;
+    height: 37px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #05060A;
+    scroll-behavior: smooth;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+    background: #05060A;
+    }
+
+h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+#header {
+    display: flex;
+    align-items: center;
+    gap: 4.6125rem;
+}
+
+#divider {
+    width: 33.81344rem;
+    height: 0.01rem;
+    background: #E8E8F0;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: -0.0125rem;
+}
+
+#first {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    letter-spacing: -0.00938rem;
+    margin-bottom: -1.5rem;
+    margin-top: 0.3rem;
+}
+
+#second {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.015rem;
+    margin-bottom: 0.3rem;
+}
+
+#date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#views {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20.4375rem;
+}
+
+#first-file {
+    display: flex;
+    width: 32.5rem;
+    padding: 0rem 0.625rem;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 0.5rem;
+    background: #2A467E; /* royal blue */  
+    /* background: #2541B2; /* royal blue */   
+    /* background: #4464AD; light blue   */
+    /* background: #757780; gray   */
+
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#playbutton {
+    width: 2.5625rem;
+    height: 2.5625rem;
+    flex-shrink: 0;
+}
+
+#guessbar {
+    border-radius: 0.5rem;
+    border: 1px solid #4A78CF;
+    background: #2A467E;
+    width: 33.81344rem;
+    height: 2.5625rem;
+    flex-shrink: 0;
+}
+
+#guessbar > input {
+    color: #E8E8F0;
+    padding-left: .8rem;
+    font-size: 1.2rem;
+}
+
+::placeholder {
+    color: #c5c5d1;
+}
+
+input:focus {
+    outline: none;
+}
+
+#skipguess {
+    display: flex;
+    width: 33.75rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.6rem;
+}
+
+#skip {
+    display: flex;
+    width: 5.125rem;
+    height: 1.325rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+
+    border-radius: 0.5rem;
+    background: #DB4731;
+}
+
+#guess {
+    display: flex;
+    width: 5.125rem;
+    height: 1.325rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    
+
+    border-radius: 0.5rem;
+    background: #62A11D;    
+}
+
+.interact {
+    margin-top: 2.6rem;
+}
